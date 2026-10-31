@@ -12,7 +12,7 @@ type Task = {
   done: boolean;
 };
 
-const API = "http://localhost:3000";
+const API = "https://taskflow-hgik95zz7-smit-0801.vercel.app";
 
 export default function App() {
   const [tasks, setTasks] = useState<Task[]>([]);
