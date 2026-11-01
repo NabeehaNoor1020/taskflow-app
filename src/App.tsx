@@ -12,7 +12,7 @@ type Task = {
   done: boolean;
 };
 
-const API = "https://taskflow-hgik95zz7-smit-0801.vercel.app";
+const API = "https://taskflow-78cifmvnw-smit-0801.vercel.app/api";
 
 export default function App() {
   const [tasks, setTasks] = useState<Task[]>([]);
